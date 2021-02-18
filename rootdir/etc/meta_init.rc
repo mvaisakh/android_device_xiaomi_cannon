@@ -8,7 +8,7 @@ import /init.environ.rc
 import /vendor/etc/init/hw/init.aee.rc
 import /system/etc/init/hw/init.aee.rc
 import /vendor/etc/init/trustonic.rc
-import ${ro.vendor.rc}meta_init.connectivity.rc
+import /vendor/etc/init/hw/meta_init.connectivity.rc
 import /vendor/etc/init/hw/meta_init.project.rc
 import /vendor/etc/init/microtrust.rc
 import /vendor/etc/init/android.hardware.boot@1.0-service.rc
@@ -28,7 +28,7 @@ import /vendor/etc/init/vendor.microtrust.hardware.thh@2.0-service.rc
 import /vendor/etc/init/microtrust.init_thh.rc
 ##microtrust end
 #Make sure meta_init.modem.rc is the last rc file.
-import ${ro.vendor.rc}meta_init.modem.rc
+import /vendor/etc/init/hw/meta_init.modem.rc
 
 
 on early-init
@@ -299,7 +299,7 @@ on fs
     write /proc/bootprof "INIT:Mount_START"
     wait_for_prop hwservicemanager.ready "true"
     start vendor.boot-hal-1-0
-    mount_all /vendor/etc/fstab.mt6853 ${ro.vendor.rc}multi_init.rc
+    mount_all /vendor/etc/fstab.mt6853 /vendor/etc/init/hw/multi_init.rc
     write /proc/bootprof "INIT:Mount_END"
 #INTERNAL_END
 
