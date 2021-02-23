@@ -15,5 +15,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_cezanne.mk
-COMMON_LUNCH_CHOICES := omni_cezanne-eng
+    $(LOCAL_DIR)/omni_cannon.mk
+
+COMMON_LUNCH_CHOICES := omni_cannon-eng
