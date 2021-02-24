@@ -200,5 +200,7 @@ PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
 # VNDK
+PRODUCT_EXTRA_VNDK_VERSIONS := 29
+
 PRODUCT_PACKAGES += \
     vndservicemanager
