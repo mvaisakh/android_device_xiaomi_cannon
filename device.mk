@@ -157,3 +157,7 @@ PRODUCT_PACKAGES += \
 # Renderscript
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
+
+# Sensors
+PRODUCT_COPY_FILES += \
+   $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
