@@ -1,6 +1,5 @@
 #
-# Copyright (C) 2021 mvaisakh
-# Copyright (C) 2021 StatiXOS
+# Copyright 2021 mvaisakh
 #
 # SPDX-License-Identifer: Apache-2.0
 
@@ -380,19 +379,6 @@ PRODUCT_PACKAGES += \
 # Soong
 PRODUCT_SOONG_NAMESPACES += \
     device/xiaomi/cannon
-
-# Telephony
-PRODUCT_PACKAGES += \
-    ims-ext-common \
-    ims_ext_common.xml \
-    qti-telephony-hidl-wrapper \
-    qti_telephony_hidl_wrapper.xml \
-    qti-telephony-utils \
-    qti_telephony_utils.xml \
-    telephony-ext
-
-PRODUCT_BOOT_JARS += \
-    telephony-ext
 
 # Thermal
 PRODUCT_PACKAGES += \
