@@ -154,3 +154,6 @@ PRODUCT_PACKAGES += \
     fstab.mt6853 \
     ueventd.mtk.rc
 
+# Renderscript
+PRODUCT_PACKAGES += \
+    android.hardware.renderscript@1.0-impl
