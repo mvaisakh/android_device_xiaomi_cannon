@@ -26,13 +26,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 # Inherit from cannong device
 $(call inherit-product, device/xiaomi/cannong/device.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
-#$(call inherit-product, vendor/omni/config/gsm.mk)
+# Inherit some common twrp stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := cannong
-PRODUCT_NAME := omni_cannong
+PRODUCT_NAME := twrp_cannong
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi
 PRODUCT_MANUFACTURER := xiaomi
