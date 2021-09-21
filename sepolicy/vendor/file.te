@@ -1,1 +1,2 @@
-# Stub
+# Power supply
+type sysfs_power_supply, fs_type, sysfs_type;

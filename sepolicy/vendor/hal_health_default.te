@@ -1,0 +1,2 @@
+# Allow health hal to read power supply sysfs
+allow hal_health_default sysfs_power_supply:file r_file_perms;

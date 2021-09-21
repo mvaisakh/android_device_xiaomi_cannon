@@ -1,0 +1,2 @@
+# Power sysfs
+genfscon sysfs /devices/platform/battery/power_supply/battery                             u:object_r:sysfs_power_supply:s0
