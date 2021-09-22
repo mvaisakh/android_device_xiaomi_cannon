@@ -1,0 +1,2 @@
+# Allow PQ HAL to ioctl dri_device
+allow mtk_hal_pq dri_device:chr_file ioctl;
