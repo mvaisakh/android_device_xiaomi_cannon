@@ -1,0 +1,10 @@
+# Allow init to execute vendor HALs
+allow init {
+    hal_mlipay_default_exec
+    hal_slaservice_qti_exec
+    hal_tidaservice_default_exec
+    hal_vsimapp_default_exec
+    hal_xiaomi_charge_default_exec
+    hal_xiaomi_displayfeature_default_exec
+    hal_xiaomi_touchfeature_default_exec
+}:file execute;
