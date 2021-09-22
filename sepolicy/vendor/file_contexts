@@ -1,0 +1,11 @@
+# Vendor HALs
+/(system\/vendor|vendor)/bin/hw/vendor\.mediatek\.hardware\.vpu@1\.0-service                    u:object_r:mtk_hal_neuralnetworks_exec:s0
+/(system\/vendor|vendor)/bin/hw/vendor\.microtrust\.hardware\.se@1\.0-service                   u:object_r:hal_secure_element_default_exec:s0
+/(system\/vendor|vendor)/bin/hw/vendor\.nxp\.hardware\.nfc@1\.2-service                         u:object_r:hal_nfc_default_exec:s0
+/(system\/vendor|vendor)/bin/hw/vendor\.qti\.sla\.service@1\.0-service                          u:object_r:hal_slaservice_qti_exec:s0
+/(system\/vendor|vendor)/bin/hw/vendor\.xiaomi\.hardware\.displayfeature@1\.0-service           u:object_r:hal_xiaomi_displayfeature_default_exec:s0
+/(system\/vendor|vendor)/bin/hw/vendor\.xiaomi\.hardware\.micharge@1\.0-service                 u:object_r:hal_xiaomi_charge_default_exec:s0
+/(system\/vendor|vendor)/bin/hw/vendor\.xiaomi\.hardware\.touchfeature@1\.0-service             u:object_r:hal_xiaomi_touchfeature_default_exec:s0
+/(system\/vendor|vendor)/bin/mlipayd@1\.1                                                       u:object_r:hal_mlipay_default_exec:s0
+/(system\/vendor|vendor)/bin/tidad@1\.1                                                         u:object_r:hal_tidaservice_default_exec:s0
+/(system\/vendor|vendor)/bin/vsimd                                                              u:object_r:hal_vsimapp_default_exec:s0
