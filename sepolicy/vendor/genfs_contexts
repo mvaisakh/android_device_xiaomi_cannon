@@ -1,2 +1,5 @@
+# Brightness
+genfscon sysfs /devices/platform/disp_leds/leds/lcd-backlight                              u:object_r:sysfs_leds:s0
+
 # Power sysfs
 genfscon sysfs /devices/platform/battery/power_supply/battery                             u:object_r:sysfs_power_supply:s0
