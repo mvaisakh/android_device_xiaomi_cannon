@@ -1,0 +1,5 @@
+# Allow mtk sensor hal to search sysfs_bus
+allow mtk_hal_sensors sysfs_bus:dir search;
+
+# Allow mtk sensor hal to read and write to hf_manager device
+allow mtk_hal_sensors hf_manager_device:chr_file rw_file_perms;

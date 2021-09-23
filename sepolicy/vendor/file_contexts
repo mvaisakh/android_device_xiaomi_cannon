@@ -1,3 +1,6 @@
+# Devices
+/dev/hf_manager(/.*)?                                                                           u:object_r:hf_manager_device:s0
+
 # Vendor HALs
 /(system\/vendor|vendor)/bin/hw/vendor\.mediatek\.hardware\.vpu@1\.0-service                    u:object_r:mtk_hal_neuralnetworks_exec:s0
 /(system\/vendor|vendor)/bin/hw/vendor\.microtrust\.hardware\.se@1\.0-service                   u:object_r:hal_secure_element_default_exec:s0
