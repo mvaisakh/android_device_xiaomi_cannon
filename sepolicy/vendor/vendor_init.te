@@ -1,0 +1,2 @@
+# Allow init to set ffs_prop
+set_prop(vendor_init, ffs_prop)
