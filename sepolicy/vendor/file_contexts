@@ -6,6 +6,7 @@
 /(system\/vendor|vendor)/bin/hw/vendor\.xiaomi\.hardware\.displayfeature@1\.0-service           u:object_r:hal_xiaomi_displayfeature_default_exec:s0
 /(system\/vendor|vendor)/bin/hw/vendor\.xiaomi\.hardware\.micharge@1\.0-service                 u:object_r:hal_xiaomi_charge_default_exec:s0
 /(system\/vendor|vendor)/bin/hw/vendor\.xiaomi\.hardware\.touchfeature@1\.0-service             u:object_r:hal_xiaomi_touchfeature_default_exec:s0
+/(system\/vendor|vendor)/bin/fidoca                                                             u:object_r:hal_mfidoca_default_exec:s0
 /(system\/vendor|vendor)/bin/mlipayd@1\.1                                                       u:object_r:hal_mlipay_default_exec:s0
 /(system\/vendor|vendor)/bin/mtd@1\.2                                                           u:object_r:hal_mtdservice_default_exec:s0
 /(system\/vendor|vendor)/bin/tidad@1\.1                                                         u:object_r:hal_tidaservice_default_exec:s0

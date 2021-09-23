@@ -1,5 +1,6 @@
 # Allow init to execute vendor HALs
 allow init {
+    hal_mfidoca_default_exec
     hal_mlipay_default_exec
     hal_mtdservice_default_exec
     hal_slaservice_qti_exec

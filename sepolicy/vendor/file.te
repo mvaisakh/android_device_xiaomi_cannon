@@ -2,6 +2,7 @@
 type sysfs_power_supply, fs_type, sysfs_type;
 
 # Vendor HALs
+type hal_mfidoca_default_exec, exec_type, vendor_file_type, file_type;
 type hal_mlipay_default_exec, exec_type, vendor_file_type, file_type;
 type hal_mtdservice_default_exec, exec_type, vendor_file_type, file_type;
 type hal_slaservice_qti_exec, exec_type, vendor_file_type, file_type;
