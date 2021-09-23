@@ -9,4 +9,4 @@ allow init {
     hal_xiaomi_charge_default_exec
     hal_xiaomi_displayfeature_default_exec
     hal_xiaomi_touchfeature_default_exec
-}:file execute;
+}:file { execute execute_no_trans };
