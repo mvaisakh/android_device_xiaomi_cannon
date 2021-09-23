@@ -1,0 +1,2 @@
+# Allow NWK Opt HAL to set nwk opt prop
+set_prop(mtk_hal_nwk_opt, vendor_mtk_nwk_opt_prop)
