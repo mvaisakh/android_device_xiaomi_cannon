@@ -1,0 +1,5 @@
+# Allow fingerprint HAL to write into the sock_file
+allow hal_fingerprint_default property_socket:sock_file write;
+
+# Allow fingerprint HAL to find fingerprint extension hwservice
+allow hal_fingerprint_default vendor_hal_fingerprint_hwservice_xiaomi:hwservice_manager find;
