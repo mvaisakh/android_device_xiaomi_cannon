@@ -1,2 +1,5 @@
+# Display panel prop
+vendor.panel.	                                   u:object_r:vendor_panel_prop:s0
+
 # NWK OPT Prop
 persist.vendor.gsm.netin.                          u:object_r:vendor_mtk_nwk_opt_prop:s0

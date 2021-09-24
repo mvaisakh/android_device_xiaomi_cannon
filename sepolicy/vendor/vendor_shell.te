@@ -1,0 +1,5 @@
+# Allow vendor_shell to get attributes of toolbox_exec
+allow vendor_shell toolbox_exec:file getattr;
+
+# Set panel props
+set_prop(vendor_shell, vendor_panel_prop)
